@@ -1,0 +1,8 @@
+Batch Gradient Descent : 1>Computes the gradient using the whole dataset.
+                         2>Calculate the gradients for the whole dataset and perform just one update at each iteration. 
+
+Stochastic Gradient Descent : 1> Uses only single training example to calculate the gradient and update parameters.
+                              2> Computes the gradient using a single sample.
+
+Mini Batch Gradient Descent : 1> Uses n data points instead of 1 sample at each iteration.
+                              2>Mini-batch gradient is a variation of stochastic gradient descent where instead of single training example,                                    mini-batch of samples is used. It’s one of the most popular optimization algorithms.  
