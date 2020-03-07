@@ -1,0 +1,45 @@
+Q>
+In which class of Machine Learning problems output should be scaled along with the input features?
+Options
+    Classification problems
+    Regression problems
+    Both of these
+ >  None of these 
+Correct Answer
+Solution Description
+Explanation: In the classification problem, output variables are discrete so there is no need to normalize it. In the regression problem, scaling the output does not have any effect on the shape of the function. So, only input features should be scaled and not the output variable.
+
+Q>
+Which of the following present in sklearn is used for feature scaling?
+Options
+    Pipeline
+  > Preprocessing 
+    Ensemble
+    Preprocessor
+    
+Q>Which of the following does sklearn.preprocessing do by default
+Options
+   > scale the data to unit variance 
+    inplace scaling
+   > center the data before scaling 
+    None of the above
+    
+    
+Q>
+What should be the output of the following (in terms of zero or non-zero):
+
+   1 import numpy as np
+   2 from sklearn.preprocessing import StandardScaler
+   3 data = [[0,3],[9,4],[2,7],[1,1]]
+   4 scaler = StandardScaler()
+   5 scaler.fit(data)
+   6 first = scaler.transform(data)
+   7 second = scaler.transform([[12,13], [1,4], [10,7], [1,9]])
+   8 print(first.sum())
+   9 print(second.sum())
+   
+   Options
+  > 8th line: zero, 9th line: non-zero 
+    8th line: non-zero, 9th line: non-zero
+    8th line: non-zero, 9th line: zero
+    8th line: zero, 9th line: zero

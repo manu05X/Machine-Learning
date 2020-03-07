@@ -1,0 +1,8 @@
+Manhatten
+
+1> x-x.min()/x.max()-x.min()
+
+
+2> Ui = [Xi - X.min()/X.max() - X.min()] * (Y2 - Y1) + Y1
+
+(Y1,Y2) are given range
