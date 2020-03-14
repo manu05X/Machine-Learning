@@ -1,0 +1,23 @@
+Logistic Regression :Classification
+Sigmoid Function :1/1+e^-z
+h(x)=1/1+e^-mT * x
+
+
+Sigmoid Function is used by logistic regression to get prediction in the range between [0,1]
+
+The cut off value for the sigmoid function as discussed is 0.5
+
+Q>Value of Sigmoid Function:
+
+Consider predicted m values for a 2 feature(x1, x2) problem as m1 = 0.001, m2 = 0.02 and m3 = 0.1. Find the value of h(z), where h(z) is sigmoid function and z = m1*x1 + m2*x2 + m3 for x1 = 10 and x2 = 80.
+
+Sol.>
+    => z = m1*x1 + m2*x2 + m3
+    => z = .001*10 + .02*80 + .1
+    => z = 1.71
+    
+    => h(z)=1/1+e^-z
+    =>h(z) = 1/(1+e^(-1.71))
+    =>h(z) = 0.84683628423
+    
+    =>h(z) = 0.85 (.Ans)

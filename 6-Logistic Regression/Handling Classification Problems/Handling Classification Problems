@@ -1,0 +1,17 @@
+Binary Classification
+Logistic is classification algorithm
+
+
+Linear Regression for classification:
+
+        * Outliers will spoil the model. 
+
+        * Linear Regression will predict continuous values whereas for classification we would need prediction to be in terms of classes(which aren’t continuous) 
+
+
+Q>Consider predicted m values for a 2 feature(x1, x2) problem as m1 = 0.5, m2 = 0.2 and m3 = 0.01. Find y prediction for x1 = 100 and x2 = 40 using Linear Regression.
+
+sol:- f(m,b) = 1/N Σ 2(Yi - (m1x1 + m2x2))
+    => 0.01 = 1/2* 2(Yi - 0.5*100 - 0.2*40)
+    => 0.01 = Yi - 58
+    => Yi = 58.01
