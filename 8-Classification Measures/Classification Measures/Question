@@ -1,0 +1,10 @@
+Q>
+You are solving a classification problem with a highly imbalanced class. The majority class is occurring 98% of times in the training data.
+Now when you come with predictions, your model has 98% accuracy on test data. True in such a case are:
+    1. Accuracy metric is not a good idea for imbalanced class problems.
+    2. Precision and recall metrics are good for imbalanced class problems.
+    
+Q>
+What is f1 score ?
+Ans>
+Harmonic mean of precision and recall 
