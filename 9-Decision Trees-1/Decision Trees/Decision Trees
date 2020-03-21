@@ -1,0 +1,6 @@
+Decision Trees is a Classification algorithm
+
+We can draw the diagram of OR table
+
+* Decision Tree uses a tree like graph or a model of decision 
+* In decision tree each internal node represents a "test" on an attribute, and each branch represents the outcome of the test, and each leaf node represents a class label (decision taken after computing all attributes). 
