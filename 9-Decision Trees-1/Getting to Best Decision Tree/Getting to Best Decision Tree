@@ -5,5 +5,10 @@ We will find a tree which give a descent accuracy and exponentially ,uch easier 
 
 In our greedy algorithm we are not going to worry what will happen eventually and we will be greedy about each individual steps.
 
-1.if Node is pure: output the only class
-2.if no feature is left to split upon:output majority
+    1.if Node is pure: output the only class
+    2.if no feature is left to split upon:output majority
+if both of them are not met or fail.
+
+    3. Find the best feature to split upon:
+        recursively call on split.
+        

@@ -1,0 +1,2 @@
+* export_graphviz is used to export decision tree.
+* Module used to convert dot_data file to pdf is pydotplus.
