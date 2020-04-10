@@ -1,0 +1,58 @@
+1.Assign weights to our feature
+2.Feature Selection:-Backward Elimination
+
+*Back elimination algorithm techniques is used generally for feature selection in case of KNN
+
+
+Q>If we decide to give weights to manage our features in KNN and we have our data as shown below, what might possibly be the weights assigned to feature1 and feature2? There are other features also present in the data-set which are not shown for clarity purposes. Assume that weights vary between 0 and 100. Max weight is 100 and min weight is 0.
+
+https://ninjasfiles.s3.amazonaws.com/0000000000000852.png
+
+Ans:
+    95 , 5 
+    5 , 95 
+
+    Correct Answer
+    Solution Description
+    As we can notice that both the features are having similar values we give importance to only one feature and assign less weight to the other. Any one of the two features can be given higher weight.
+    
+    
+    
+    
+*Categorical data which has a feature, which can have values that don’t have natural ordering so we need to handle separately to use KNN.
+
+* Which of the following is the best way to handle categorical data which has a feature that can have any value from {cricket, hockey,basketball}?
+
+ans:
+1>replace cricket , hockey, basketball with 0 ,1 ,2 i.e numeric data
+2>make separate columns for cricket,basketball and hockey with binary entry representing if the sport occurs for the data point or not. 
+3>any one of the two above can be used.
+4>none of these is a good method.
+
+Correct Answer 2
+____________________________________________________________________________________________
+Other Algorithms for KNN
+
+KD Tree
+___________
+A KD Tree(also called as K-Dimensional Tree) is a binary search tree where data in each node is a K-Dimensional point in space. In short, it is a space partitioning data structure for organising points in a K-Dimensional space. It is used in Nearest Neighbours algorithm.
+
+
+Q>
+We are doing O(n) work on each data-point in our implemented brute force method. Till which of the following will KD-Tree reduce the work done on each data-point.
+
+Ans:
+
+  O(√n)
+* O(log(n)) 
+  O(∛n)
+  none of the above
+Correct Answer:
+O(log(n)) 
+Solution Description
+We try to cut the space (representation of features. 2D space if only 2 features are present in a data-point) into halves and then just do the search on one of the halves. As we do this for each node of the tree the height of the tree is O(log(n)). So, for searching, we will just need to traverse at most O(log(n)). This is similar to the case of Binary Search Tree.
+
+
+
+
+
